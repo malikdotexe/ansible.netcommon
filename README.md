@@ -4,6 +4,7 @@
 
 [![Integration tests 💻](https://github.com/ansible-collections/ansible.netcommon/actions/workflows/integration-cml.yml/badge.svg?branch=main)](https://github.com/ansible-collections/ansible.netcommon/actions/workflows/integration-cml.yml)
 [![CI](https://github.com/ansible-collections/ansible.netcommon/actions/workflows/tests.yml/badge.svg?branch=main&event=schedule)](https://github.com/ansible-collections/ansible.netcommon/actions/workflows/tests.yml)
+[![codecov](https://codecov.io/gh/ansible-collections/ansible.netcommon/branch/main/graph/badge.svg)](https://codecov.io/gh/ansible-collections/ansible.netcommon)
 
 The Ansible ``ansible.netcommon`` collection includes common content to help automate the management of network, security, and cloud devices.
 This includes connection plugins, such as ``network_cli``, ``httpapi``, and ``netconf``.

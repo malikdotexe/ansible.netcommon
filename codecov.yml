@@ -1,12 +1,27 @@
 ---
 codecov:
   require_ci_to_pass: true
-comment: false
+
 coverage:
+  ignore:
+    - "tests/**"
   status:
-    patch: false
+    patch:
+      default:
+        target: auto
     project:
       default:
         threshold: 0.3%
+
+flags:
+  unit-tests:
+    carryforward: true
+    paths:
+      - plugins/
+
+comment:
+  layout: "reach,diff,flags,files"
+  behavior: default
+
 fixes:
   - "source/::"
