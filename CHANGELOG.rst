@@ -4,6 +4,14 @@ Ansible Netcommon Collection Release Notes
 
 .. contents:: Topics
 
+v8.7.1
+======
+
+Release Summary
+---------------
+
+Bugfix release with trivial sanity ignore file updates (remove obsolete compat vendor python script entries and drop unused ignore files).
+
 v8.7.0
 ======
 
