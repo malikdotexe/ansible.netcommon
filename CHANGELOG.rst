@@ -10,7 +10,7 @@ v8.7.1
 Release Summary
 ---------------
 
-Bugfix release with trivial sanity ignore file updates (remove obsolete compat vendor python script entries and drop unused ignore files).
+Releasing 8.7.0 with sanity tests ignore files fix.
 
 v8.7.0
 ======

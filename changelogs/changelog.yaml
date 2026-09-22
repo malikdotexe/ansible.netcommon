@@ -1081,7 +1081,7 @@ releases:
     release_date: "2026-08-11"
   8.7.1:
     changes:
-      release_summary: Bugfix release with trivial sanity ignore file updates (remove obsolete compat vendor python script entries and drop unused ignore files).
+      release_summary: Releasing 8.7.0 with sanity tests ignore files fix.
     fragments:
       - 8.7.1-release-summary.yml
       - sanity-patch.yaml
